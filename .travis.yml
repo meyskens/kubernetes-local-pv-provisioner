@@ -8,7 +8,7 @@ stages:
   - name: release
     if: tag IS present
 
-go_import_path: github.com/src-d/kubernetes-local-pv-provisioner
+go_import_path: github.com/meyskens/kubernetes-local-pv-provisioner
 
 jobs:
   include:

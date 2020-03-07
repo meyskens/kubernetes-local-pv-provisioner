@@ -6,7 +6,7 @@ DOCKERFILES = Dockerfile:$(PROJECT)
 DOCKER_ORG = "srcd"
 
 # Including ci Makefile
-CI_REPOSITORY ?= https://github.com/src-d/ci.git
+CI_REPOSITORY ?= https://github.com/meyskens/ci.git
 CI_BRANCH ?= v1
 CI_PATH ?= .ci
 MAKEFILE := $(CI_PATH)/Makefile.main

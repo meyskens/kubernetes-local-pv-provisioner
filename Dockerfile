@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:3.11
 
 COPY ./build/bin/k8s-local-pv-provisioner /bin/k8s-local-pv-provisioner
 
