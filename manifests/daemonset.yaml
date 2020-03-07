@@ -22,7 +22,7 @@ spec:
       serviceAccountName: k8s-local-pv-provisioner
       restartPolicy: Always
       containers:
-        - image: meyskens/k8s-local-pv-provisioner
+        - image: meyskens/kubernetes-local-pv-provisioner
           imagePullPolicy: Always
           name: k8s-local-pv-provisioner
           volumeMounts:
