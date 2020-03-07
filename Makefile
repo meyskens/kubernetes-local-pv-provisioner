@@ -3,7 +3,7 @@ PROJECT = kubernetes-local-pv-provisioner
 COMMANDS = cmd/k8s-local-pv-provisioner
 
 DOCKERFILES = Dockerfile:$(PROJECT)
-DOCKER_ORG = "srcd"
+DOCKER_ORG = "meyskens"
 
 # Including ci Makefile
 CI_REPOSITORY ?= https://github.com/meyskens/ci.git
